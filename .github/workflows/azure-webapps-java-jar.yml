@@ -31,4 +31,4 @@ jobs:
       with:
         push: true
         tags: pe3acr.azurecr.io/dockersample:${{ github.sha }}
-        file: ./demo/Dockerfile
+        file: ./Dockerfile
